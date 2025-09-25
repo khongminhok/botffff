@@ -1,16 +1,12 @@
 if server == "IND":
-        url = "https://client.ind.freefiremobile.com"
-        host = "client.ind.freefiremobile.com"
-    elif server in {"BR", "US", "SAC", "NA"}:
-        url = "https://client.us.freefiremobile.com"
-        host = "client.us.freefiremobile.com"
-    else:
-        url = "https://clientbp.ggblueshark.com"
-        host = "clientbp.ggblueshark.com"
-        
-        
-        
-        
-        
-        
-        also change the chat_ip acodding to your server 
+    url = "https://client.ind.freefiremobile.com"
+    host = "client.ind.freefiremobile.com"
+elif server in {"BR", "US", "SAC", "NA"}:
+    url = "https://client.us.freefiremobile.com"
+    host = "client.us.freefiremobile.com"
+elif server == "VN":
+    url = "https://client.vn.freefiremobile.com"
+    host = "client.vn.freefiremobile.com"
+else:
+    url = "https://clientbp.ggblueshark.com"
+    host = "clientbp.ggblueshark.com"
