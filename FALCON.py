@@ -1706,7 +1706,7 @@ Status: {status}
         payload = bytes.fromhex(PAYLOAD)
         return payload
     def GET_LOGIN_DATA(self, JWT_TOKEN, PAYLOAD):
-        url = "https://clientbp.common.ggbluefox.com/GetLoginData"
+        url = "https://client.ind.freefiremobile.com/GetLoginData"
         headers = {
             'Expect': '100-continue',
             'Authorization': f'Bearer {JWT_TOKEN}',
@@ -1715,7 +1715,7 @@ Status: {status}
             'ReleaseVersion': freefire_version,
             'Content-Type': 'application/x-www-form-urlencoded',
             'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 9; G011A Build/PI)',
-            'Host': 'clientbp.common.ggbluefox.com',
+            'Host': 'client.ind.freefiremobile.com',
             'Connection': 'close',
             'Accept-Encoding': 'gzip, deflate, br',
         }
